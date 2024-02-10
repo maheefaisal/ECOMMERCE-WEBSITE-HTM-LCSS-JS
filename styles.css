@@ -59,24 +59,6 @@
   padding: 10px; /* Increase padding for better touch interaction */
 }
 
-/* Hero section styles */
-.hero {
-  background-color: #f1efec;
-  padding: 5rem 0;
-  text-align: center;
-}
-
-.hero__title {
-  font-size: 3rem;
-  color: #292929;
-}
-
-.hero__subtitle {
-  font-size: 1.5rem;
-  color: #6c6c6c;
-  margin-bottom: 2rem;
-}
-
 /* About section styles */
 .about {
   background-color: #eae3d2;
@@ -113,6 +95,7 @@
   max-width: 500px;
   color: #292929;
 }
+
 /* For button */
 .button {
   position: relative;
