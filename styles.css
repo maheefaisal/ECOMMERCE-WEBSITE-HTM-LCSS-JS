@@ -520,7 +520,9 @@ footer {
 
 .footer_logo {
   width: 150px;
+  
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 
 .footer_about {
@@ -587,13 +589,19 @@ form input[type="email"] {
 
 form button {
   padding: 10px 20px;
-  background-color: #333;
+  background-color: whitesmoke;
   border: none;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
+  border-radius: 10px;
+  border-color: #292929;
 }
 
+form button:hover{
+  background-color: #969696;
+
+}
 .social_icons {
   display: flex;
   justify-content: center;
@@ -602,7 +610,7 @@ form button {
 
 .social_icon {
   font-size: 24px;
-  color: #333;
+  color: red;
   margin: 0 10px;
 }
 
@@ -615,4 +623,9 @@ hr {
 footer p.copyright {
   font-size: 14px;
   color: #666;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor; /* This will inherit the color from the parent element */
 }
